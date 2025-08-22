@@ -1,0 +1,38 @@
+# CODEOWNERS file for analytics-controller-136
+# Global owners - will be requested for all PRs
+* @Armor-test/team-core @Armor-test/grp-ui @Armor-test/squad-api
+
+# Directory ownership
+/dist/ @Armor-test/team-frontend @Armor-test/unit-cloud @Armor-test/squad-search
+/pages/ @Armor-test/unit-governance @Armor-test/dept-api
+/db/ @Armor-test/dept-automation @Armor-test/squad-qa @Armor-test/unit-devops
+/config/ @Armor-test/unit-design @Armor-test/team-security
+/models/ @Armor-test/unit-test @Armor-test/unit-cloud @Armor-test/team-governance
+/plugins/ @Armor-test/squad-ml @Armor-test/unit-devops
+/security/ @Armor-test/team-reporting @Armor-test/dept-logging @Armor-test/grp-reporting
+/modules/ @Armor-test/unit-test @Armor-test/squad-ml
+/core/ @Armor-test/squad-frontend @Armor-test/team-notifications
+/test/ @Armor-test/grp-payments @Armor-test/squad-tooling @Armor-test/dept-notifications
+/views/ @Armor-test/team-core @Armor-test/dept-identity
+/app/ @Armor-test/dept-api @Armor-test/squad-cache @Armor-test/team-frontend
+/api/ @Armor-test/squad-tooling @Armor-test/squad-reporting
+/utils/ @Armor-test/squad-apps @Armor-test/team-core
+/data/ @Armor-test/squad-product @Armor-test/grp-storage @Armor-test/dept-test
+
+# File type ownership
+*.html @Armor-test/squad-qa @Armor-test/dept-notifications @Armor-test/team-research
+*.go @Armor-test/team-notifications @Armor-test/dept-api
+*.js @Armor-test/dept-release @Armor-test/dept-security @Armor-test/team-governance
+*.xml @Armor-test/squad-qa @Armor-test/grp-storage
+*.jsx @Armor-test/team-reporting @Armor-test/unit-test @Armor-test/team-research
+*.proto @Armor-test/squad-api @Armor-test/squad-product
+*.h @Armor-test/squad-mobile @Armor-test/dept-security @Armor-test/dept-reliability
+*.tf @Armor-test/grp-search @Armor-test/dept-test
+*.kt @Armor-test/squad-performance @Armor-test/squad-apps
+*.cpp @Armor-test/squad-frontend @Armor-test/dept-billing @Armor-test/unit-test
+*.rs @Armor-test/squad-ux @Armor-test/grp-reporting
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
